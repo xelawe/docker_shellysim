@@ -50,7 +50,7 @@ Der Container:
 ### 1. Repository klonen
 
 ```bash
-git clone https://github.com/xelawe/shellysim.git
+git clone https://github.com/xelawe/docker_shellysim.git
 cd shellysim
 ```
 
