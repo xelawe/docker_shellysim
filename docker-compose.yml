@@ -1,10 +1,10 @@
 services:
   shellysim:
-    image: shellysim:latest
+    build: .
     container_name: shellysim
     restart: unless-stopped
     ports:
-      - "80:80"
+      - "80:80"          # EET Solmate polls this port
     environment:
       MQTT_HOST: "${MQTT_HOST:-192.168.1.10}"
       MQTT_PORT: "${MQTT_PORT:-1883}"
